@@ -25,6 +25,9 @@ app.get("/service", (req, res) => {
 app.get("/contact", (req, res) => {
   res.sendFile(__dirname + "/public/contact.html");
 });
+// app.get("/closed", (req, res) => {
+//   res.sendFile(__dirname + "/public/closed.html");
+// });
 
 const port = 5000;
 app.listen(port, (err) =>
